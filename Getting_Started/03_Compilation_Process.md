@@ -175,6 +175,12 @@ Executable (hello_world)
 
 ---
 
+## 6. Summary Flowchart of Rust vs. C Compilation
+### 🖥️ C Compilation Process:
+.c``` Source Code → Preprocessor → AST → IR → Assembly (.s) → Object File (.o) → Linking → Executable```
+
+### 🦀 Rust Compilation Process:
+.rs```Source Code → AST → HIR → MIR → Ownership & Borrow Checks → LLVM IR → Machine Code → Linking → Executable```
 ## 6. Key Tools and Concepts
 
 ### `rustc` Compiler
